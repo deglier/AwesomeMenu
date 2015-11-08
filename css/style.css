@@ -16,20 +16,6 @@ header {
   text-align: center;
   background-color: black;
   transition: background-color 300ms ease-in-out; }
-  .menu.home-hover {
-    background-color: #7b0013; }
-  .menu.port-hover {
-    background-color: #18007b; }
-  .menu.blog-hover {
-    background-color: #5a007b; }
-  .menu.contato-hover {
-    background-color: #187b00; }
-  .menu.home-hover a:hover,
-  .menu.port-hover a:hover,
-  .menu.blog-hover a:hover,
-  .menu.contato-hover a:hover {
-    border-bottom: 0.2rem solid white;
-    transition: all 250ms ease-in-out; }
   .menu a {
     font-size: 2rem;
     color: white;
@@ -39,6 +25,9 @@ header {
     padding: 10px;
     border-bottom: 0.2rem solid transparent;
     transition: all 250ms ease-in-out; }
+    .menu a:hover {
+      border-bottom: 0.2rem solid white;
+      transition: all 250ms ease-in-out; }
 
 section {
   width: calc(100% - 100px);

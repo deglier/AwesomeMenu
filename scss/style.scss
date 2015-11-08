@@ -4,11 +4,7 @@
     font-family: verdana, sans-serif;
     font-size: 62.5%;
 }
-$home: #7b0013;
-$port: #18007b;
-$blog: #5a007b;
-$contato: #187b00;
-    
+
 header {
     height: 100px;
     h1 {
@@ -23,27 +19,6 @@ header {
     text-align: center;
     background-color: black;
     transition: background-color 300ms ease-in-out;
-    &.home-hover {
-        background-color: $home;
-    }
-    &.port-hover {
-        background-color: $port;
-    }
-    &.blog-hover {
-        background-color: $blog;
-    }
-    &.contato-hover {
-        background-color: $contato;
-    }
-    &.home-hover,
-    &.port-hover,
-    &.blog-hover,
-    &.contato-hover {
-        a:hover {
-            border-bottom: 0.2rem solid white;
-            transition: all 250ms ease-in-out;
-        }
-    }
     a {
         font-size: 2rem;
         color: white;
@@ -53,6 +28,10 @@ header {
         padding: 10px;
         border-bottom: 0.2rem solid rgba(0,0,0,0);
         transition: all 250ms ease-in-out;
+        &:hover {
+            border-bottom: 0.2rem solid white;
+            transition: all 250ms ease-in-out;
+        }
     }
 }
 section {
