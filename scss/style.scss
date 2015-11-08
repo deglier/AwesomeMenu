@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: verdana, sans-serif;
+    font-size: 62.5%;
+}
+$home: #7b0013;
+$port: #18007b;
+$blog: #5a007b;
+$contato: #187b00;
+    
+header {
+    height: 100px;
+    h1 {
+        font-size: 4rem;
+        text-align: center;
+        line-height: 100px;
+    }
+}
+
+.menu {
+    height: 60px;
+    text-align: center;
+    background-color: black;
+    transition: background-color 300ms ease-in-out;
+    &.home-hover {
+        background-color: $home;
+    }
+    &.port-hover {
+        background-color: $port;
+    }
+    &.blog-hover {
+        background-color: $blog;
+    }
+    &.contato-hover {
+        background-color: $contato;
+    }
+    &.home-hover,
+    &.port-hover,
+    &.blog-hover,
+    &.contato-hover {
+        a:hover {
+            border-bottom: 0.2rem solid white;
+            transition: all 250ms ease-in-out;
+        }
+    }
+    a {
+        font-size: 2rem;
+        color: white;
+        line-height: 60px;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 10px;
+        border-bottom: 0.2rem solid rgba(0,0,0,0);
+        transition: all 250ms ease-in-out;
+    }
+}
+section {
+    width: calc(100% - 100px);
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px 50px;
+    p {
+        font-size: 1.3rem;
+        text-align: justify;
+        margin-bottom: 10px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
