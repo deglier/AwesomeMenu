@@ -3,7 +3,6 @@ Menu que muda a cor de fundo da barra de menu com uma cor diferente pra cada ite
 
 **Linguagens:** CSS / HTML / JavaScript(jQuery).
 
-###O que é:
 Um valor é passado pelo atributo `data-bg` presente em cada tag `<a>` com a finalidade de muda o **brackground-color** da tag `<nav class="menu">` quando há evento de **hover** sobre um item do menu.
 
 ####Como funciona:
