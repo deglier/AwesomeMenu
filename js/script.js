@@ -1,9 +1,3 @@
-function rainbowMenu(seletorDisparador, seleTorAfetado){
-  var elDisparador  = document.querySelectorAll(seletorDisparador);
-  var elAfetado     = document.querySelector(seleTorAfetado);
-}
-
-
 $(document).ready(function(){
     $("a").hover(
         function(){
